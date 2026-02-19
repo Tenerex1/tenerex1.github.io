@@ -1,0 +1,90 @@
+header {
+  color: chartreuse;
+  background-color: black;
+  font-size: 80px;
+  height: 120px;
+  font-family: "Pixelify Sans", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+nav {
+  color: yellow;
+  margin-left: 400px;
+  margin-top: -80px;
+}
+.b {
+  width: 300px;
+  height: 200px;
+}
+.div {
+  background-color: rgb(0, 0, 0);
+  margin-top: 100px;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.k {
+  width: 400px;
+  height: 125px;
+  border-radius: 50px;
+  color: darkgreen;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 25px;
+}
+h2 {
+  color: darkgoldenrod;
+  font-family: "Pixelify Sans", sans-serif;
+  height: 10px;
+}
+div {
+  justify-content: center;
+}
+body {
+  background-image: url("file:///C:/Users/%D0%A0%D0%BE%D0%BC%D0%B0/Downloads/Rectangle%2023.png");
+}
+.s {
+  height: 300px;
+}
+.v {
+  background-color: black;
+  color: aliceblue;
+  height: 200px;
+  font-family: "Pixelify Sans", sans-serif;
+  margin-top: 100px;
+}
+.pomid {
+  width: 350px;
+  height: 350px;
+  margin-left: -600px;
+}
+.div2 {
+  background-color: black;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+}
+.pomitext {
+  margin-left: 450px;
+  margin-top: -350px;
+}
+p {
+  color: darkgreen;
+  font-family: "Pixelify Sans", sans-serif;
+  height: 10px;
+  margin-top: 100px;
+}
+footer {
+  margin-top: 200px;
+}
+header > nav > a {
+  padding: 0px 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 2px 2px 0px rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgba(11, 184, 69, 0.466);
+  display: inline-block;
+}
