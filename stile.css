@@ -10,6 +10,16 @@ nav {
   color: yellow;
   margin-left: 400px;
   margin-top: -80px;
+  animation-name: roma1;
+  animation-duration: 1.2s;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
+  animation-timing-function: ease-out;
+}
+nav:hover {
+  animation-play-state: paused;
 }
 .b {
   width: 300px;
@@ -88,4 +98,15 @@ header > nav > a {
   text-decoration: none;
   color: rgba(11, 184, 69, 0.466);
   display: inline-block;
+}
+@keyframes roma1 {
+  0% {
+    margin-left: 1000px;
+  }
+  50% {
+    margin-left: 700;
+  }
+  100% {
+    margin-left: 400px;
+  }
 }
